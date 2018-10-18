@@ -2,16 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://geekpanshi.coding.me/2018/09/28/14_the_useful_tips/</loc>
+    <loc>https://geekpanshi.coding.me/2018/10/17/23_my_git_backups/</loc>
     
-    <lastmod>2018-10-18T08:31:13.975Z</lastmod>
+    <lastmod>2018-10-18T09:05:51.499Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://geekpanshi.coding.me/2018/10/18/6_accounting_for_all/</loc>
+    <loc>https://geekpanshi.coding.me/2018/10/01/6_accounting_for_all/</loc>
     
-    <lastmod>2018-10-18T08:27:00.460Z</lastmod>
+    <lastmod>2018-10-18T09:05:14.033Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://geekpanshi.coding.me/2018/10/10/24_git_ignore_some_commited_files/</loc>
+    
+    <lastmod>2018-10-18T09:02:36.762Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://geekpanshi.coding.me/tags/index.html</loc>
+    
+    <lastmod>2018-10-18T08:37:25.399Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://geekpanshi.coding.me/search/index.html</loc>
+    
+    <lastmod>2018-10-18T08:37:00.486Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://geekpanshi.coding.me/categories/index.html</loc>
+    
+    <lastmod>2018-10-18T08:36:48.293Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://geekpanshi.coding.me/2018/09/28/14_the_useful_tips/</loc>
+    
+    <lastmod>2018-10-18T08:31:13.975Z</lastmod>
     
   </url>
   
@@ -131,27 +166,6 @@
     <loc>https://geekpanshi.coding.me/2018/08/29/11_peishuaungcai_of_books/</loc>
     
     <lastmod>2018-10-18T06:24:00.764Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://geekpanshi.coding.me/tags/index.html</loc>
-    
-    <lastmod>2018-10-17T16:38:52.148Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://geekpanshi.coding.me/categories/index.html</loc>
-    
-    <lastmod>2018-10-17T16:38:52.146Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://geekpanshi.coding.me/search/index.html</loc>
-    
-    <lastmod>2018-10-17T16:38:52.146Z</lastmod>
     
   </url>
   
