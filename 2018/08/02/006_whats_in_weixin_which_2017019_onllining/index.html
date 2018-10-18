@@ -1,0 +1,1396 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="zh-CN">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=6.4.2" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=6.4.2">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=6.4.2">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=6.4.2">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=6.4.2" color="#222">
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    version: '6.4.2',
+    sidebar: {"position":"left","display":"hide","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: 'BIL97P4C36',
+      apiKey: 'a374dec0c6aac3d462cf20ce87096436',
+      indexName: 'geekpanshi',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"输入关键字","hits_empty":"我们没有找到任何搜索结果: ${query}","hits_stats":"找到约${hits}条结果（用时${time}ms）"}
+    }
+  };
+</script>
+
+
+  
+
+
+
+
+  <meta name="description" content="2017 年 1 月 9 日上线的小程序 （2016-12-28 张小龙）1. 小程序之历史 1.1 为什么做“小程序”  微信定位：不应该只是停留在订阅号或者公众号，不应该只是提供一种订阅能力，一种推送能力微信应该提供更多新的能力，这种新的能力更加像一种应用程序的能力    1.2 最初命名为 - 应用号   1.3 项目启动日 2016年1月9日   1.4 小程序定位  通过复杂的接口实现应">
+<meta name="keywords" content="读书,修身养性,互联网">
+<meta property="og:type" content="article">
+<meta property="og:title" content="2017 年 1 月 9 日上线的小程序 （2016-12-28 张小龙）">
+<meta property="og:url" content="https://geekpanshi.coding.me/2018/08/02/006_whats_in_weixin_which_2017019_onllining/index.html">
+<meta property="og:site_name" content="Geek Panshi">
+<meta property="og:description" content="2017 年 1 月 9 日上线的小程序 （2016-12-28 张小龙）1. 小程序之历史 1.1 为什么做“小程序”  微信定位：不应该只是停留在订阅号或者公众号，不应该只是提供一种订阅能力，一种推送能力微信应该提供更多新的能力，这种新的能力更加像一种应用程序的能力    1.2 最初命名为 - 应用号   1.3 项目启动日 2016年1月9日   1.4 小程序定位  通过复杂的接口实现应">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2018-10-18T11:07:42.633Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="2017 年 1 月 9 日上线的小程序 （2016-12-28 张小龙）">
+<meta name="twitter:description" content="2017 年 1 月 9 日上线的小程序 （2016-12-28 张小龙）1. 小程序之历史 1.1 为什么做“小程序”  微信定位：不应该只是停留在订阅号或者公众号，不应该只是提供一种订阅能力，一种推送能力微信应该提供更多新的能力，这种新的能力更加像一种应用程序的能力    1.2 最初命名为 - 应用号   1.3 项目启动日 2016年1月9日   1.4 小程序定位  通过复杂的接口实现应">
+
+
+
+  <link rel="alternate" href="/rss2.xml" title="Geek Panshi" type="application/atom+xml" />
+
+
+
+
+  <link rel="canonical" href="https://geekpanshi.coding.me/2018/08/02/006_whats_in_weixin_which_2017019_onllining/"/>
+
+
+
+<script type="text/javascript" id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+
+  <title>2017 年 1 月 9 日上线的小程序 （2016-12-28 张小龙） | Geek Panshi</title>
+  
+
+
+
+
+
+
+
+
+
+  <noscript>
+  <style type="text/css">
+    .use-motion .motion-element,
+    .use-motion .brand,
+    .use-motion .menu-item,
+    .sidebar-inner,
+    .use-motion .post-block,
+    .use-motion .pagination,
+    .use-motion .comments,
+    .use-motion .post-header,
+    .use-motion .post-body,
+    .use-motion .collection-title { opacity: initial; }
+
+    .use-motion .logo,
+    .use-motion .site-title,
+    .use-motion .site-subtitle {
+      opacity: initial;
+      top: initial;
+    }
+
+    .use-motion {
+      .logo-line-before i { left: initial; }
+      .logo-line-after i { right: initial; }
+    }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Geek Panshi</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+    
+      
+        <p class="site-subtitle">价值投资 终身学习 践行家庭教育</p>
+      
+    
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="切换导航栏">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+        
+          
+          <li class="menu-item menu-item-home">
+    <a href="/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-home"></i> <br />首页</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-about">
+    <a href="/about/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-user"></i> <br />关于</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-tags">
+    <a href="/tags/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />标签</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-categories">
+    <a href="/categories/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-th"></i> <br />分类</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-archives">
+    <a href="/archives/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />归档</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-sitemap">
+    <a href="/sitemap.xml" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-sitemap"></i> <br />站点地图</a>
+  </li>
+
+      
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />搜索</a>
+        </li>
+      
+    </ul>
+  
+
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off"
+             placeholder="搜索..." spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+  
+
+
+
+</div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+            
+
+          
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://geekpanshi.coding.me/2018/08/02/006_whats_in_weixin_which_2017019_onllining/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="GeekPanshi's Blog">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Geek Panshi">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">2017 年 1 月 9 日上线的小程序 （2016-12-28 张小龙）
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-08-02 23:52:04" itemprop="dateCreated datePublished" datetime="2018-08-02T23:52:04+08:00">2018-08-02</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-10-18 19:07:42" itemprop="dateModified" datetime="2018-10-18T19:07:42+08:00">2018-10-18</time>
+              
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/学习进阶/" itemprop="url" rel="index"><span itemprop="name">学习进阶</span></a></span>
+
+                
+                
+                  ，
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/学习进阶/大佬说的/" itemprop="url" rel="index"><span itemprop="name">大佬说的</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h3 id="2017-年-1-月-9-日上线的小程序-（2016-12-28-张小龙）"><a href="#2017-年-1-月-9-日上线的小程序-（2016-12-28-张小龙）" class="headerlink" title="2017 年 1 月 9 日上线的小程序 （2016-12-28 张小龙）"></a>2017 年 1 月 9 日上线的小程序 （2016-12-28 张小龙）</h3><h4 id="1-小程序之历史"><a href="#1-小程序之历史" class="headerlink" title="1. 小程序之历史"></a>1. 小程序之历史</h4><blockquote>
+<p>1.1 为什么做“小程序”</p>
+<blockquote>
+<p>微信定位：不应该只是停留在订阅号或者公众号，不应该只是提供一种订阅能力，一种推送能力<br>微信应该提供更多新的能力，这种新的能力更加像一种应用程序的能力</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<p>1.2 最初命名为 - 应用号</p>
+</blockquote>
+<blockquote>
+<p>1.3 项目启动日 2016年1月9日</p>
+</blockquote>
+<blockquote>
+<p>1.4 小程序定位</p>
+<blockquote>
+<p>通过复杂的接口实现应用程序所需要的基本元素，把公众号变成个有更强大功能的公众号，而是完全可以跳开公开号，去做一种新的应用形态</p>
+</blockquote>
+</blockquote>
+<h4 id="2-从小程序看微信的产品理念"><a href="#2-从小程序看微信的产品理念" class="headerlink" title="2. 从小程序看微信的产品理念"></a>2. 从小程序看微信的产品理念</h4><blockquote>
+<p>2.1 再次解释用完即走</p>
+<blockquote>
+<p>2.1.1 工具<br> 帮助用户提高它的效率的，用最高效率的方法去完成它的任务<br>2.1.2  用完即走<br> 一旦用户完成了它的任务，它就应该去做别的事情，而不是停留在产品里面</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<p>2.2 微信是工具还是平台</p>
+<blockquote>
+<p>2.2.1 微信定位为工具<br>2.2.2 好的工具的一个很强的属性<br> 高效率，用完即走</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<p>2.3 做产品是克制还是自我压制？</p>
+<blockquote>
+<p>如果说做一些事情我们要求自己很克制的话，那是一种什么样行为？那是一种自我压制的行为，那不是一个很好的状态。</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<p>2.4 合理性才是最重要的因素</p>
+<blockquote>
+<p>2.4.1 合理性才是这里面要考虑的一个最重要的因素<br>2.4.2 遵从基础产品体验的理念来帮助我们做决定<br>2.4.3 任何一个产品都不可能满足所有人的需求，我们必须要做很多的取舍，而我们希望更多遵从我们自己的产品理念来做这样的取舍。</p>
+</blockquote>
+</blockquote>
+<h4 id="3-第一次完整阐述小程序"><a href="#3-第一次完整阐述小程序" class="headerlink" title="3. 第一次完整阐述小程序"></a>3. 第一次完整阐述小程序</h4><blockquote>
+<p>3.1   小程序这个项目，我们的态度：我们都已经宣布了，那我们一定要去努力做好这个事情</p>
+</blockquote>
+<h4 id="4-移动互联网的下一站：唾手可得"><a href="#4-移动互联网的下一站：唾手可得" class="headerlink" title="4. 移动互联网的下一站：唾手可得"></a>4. 移动互联网的下一站：唾手可得</h4><blockquote>
+<p>4.1 预测未来：我们看到的任何具体的一些事物，它就包含了它的信息，包含了对信息的处理在里面</p>
+</blockquote>
+<blockquote>
+<p>4.2 所有的应用程序应该是一种无处不在，但是又可以随时访问的一种状态</p>
+</blockquote>
+<blockquote>
+<p>4.3 小程序</p>
+<blockquote>
+<p>小程序是一种不需要下载、安装即可使用的应用，它实现了触手可及的梦想，用户扫一扫或者搜一下就能打开应用，也实现了用完即走的理念，用户不用安装太多应用，应用随处可用，但又无须安装卸载。</p>
+</blockquote>
+</blockquote>
+<h4 id="5-小程序的特性"><a href="#5-小程序的特性" class="headerlink" title="5. 小程序的特性"></a>5. 小程序的特性</h4><blockquote>
+<p>5.1 特点</p>
+<blockquote>
+<p>5.1 无须安装<br>5.2 触手可及<br>5.3 用完即走<br>5.4 无须卸载</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<p>5.2 小程序看起来是程序，但是它以完全不同于过去APP的形状出现，它有更灵活的应用组织形态</p>
+</blockquote>
+<blockquote>
+<p>5.3 比我们现有的所有的APP更加灵活，更加唾手可得的一种形态</p>
+</blockquote>
+<h4 id="6-我们为什么需要小程序"><a href="#6-我们为什么需要小程序" class="headerlink" title="6. 我们为什么需要小程序"></a>6. 我们为什么需要小程序</h4><blockquote>
+<p>6.1 公众号是基于订阅和推送的关系<br>6.2 在移动互联网时代反而对于大多数的企业来说，他们缺少了一种有效的载体，甚至还不如PC互联网时代那么方便，通过网站可以很方便把他们的服务线上化<br>6.3 相对于过去的PC互联网时代，其实小程序非常的接近于PC互联网的一种网站的服务</p>
+</blockquote>
+<h4 id="7-小程序的定位：体验比网站好，比下载APP更便捷"><a href="#7-小程序的定位：体验比网站好，比下载APP更便捷" class="headerlink" title="7. 小程序的定位：体验比网站好，比下载APP更便捷"></a>7. 小程序的定位：体验比网站好，比下载APP更便捷</h4><blockquote>
+<p>7.1 PC互联网的入口在搜索栏，移动互联网的入口在二维码。<br>7.2 小程序的定位</p>
+<blockquote>
+<p>在智能手机里用户可以更快捷的获取服务，但是他的体验又比网站要好很多很多，同时他的麻烦程度又比他去下载一个APP要好很多很多</p>
+</blockquote>
+</blockquote>
+<h4 id="8-关于小程序，大家关心的几个问题"><a href="#8-关于小程序，大家关心的几个问题" class="headerlink" title="8. 关于小程序，大家关心的几个问题"></a>8. 关于小程序，大家关心的几个问题</h4><blockquote>
+<p>8.1 小程序的入口在哪里？</p>
+<blockquote>
+<p>小程序在微信里是没有入口的<br>更多的是希望小程序的启动来自于扫二维码</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<p>8.2 会不会有一个类似于小程序商店的地方，可以去下载小程序？</p>
+<blockquote>
+<p>是不会有的</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<p>8.3 小程序与订阅号的关系？</p>
+<blockquote>
+<p>小程序只有一种访问的关系，而不是一种基于粉丝关系的公众号</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<p>8.4 小程序能不能推送消息？</p>
+<blockquote>
+<p>不能</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<p>8.5 小程序能不能够分享？</p>
+<blockquote>
+<p>小程序能不能分享到朋友圈？肯定不能<br>小程序可以分享到聊天里面，可以分享到群里面<br>希望的是我分享到群里面这一页的信息它是活的，所谓活的意思就是当它出现在一个聊天里的时候，你甚至不用点进去你就能看到这个小程序的表现。</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<p>8.6 程序能不能做游戏？</p>
+<blockquote>
+<p>现在并不能</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<p>8.7 小程序能不能被搜索到？</p>
+<blockquote>
+<p>用户能搜到小程序，但是我们可以极力限制它搜索的能力，避免它滥用，使得用户在微信里面能够搜索得到他需要的一个小程序</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<p>8.8 小程序和公众号的关系是怎么样的？</p>
+<blockquote>
+<p>公众号里面可以看到这个公众号同一个企业还做了哪些小程序，或者你在一个小程序里面你也可以看到，做这个小程序的企业还做了哪些公众号，他们是可以互相跳的。</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<p>8.9 小程序会突出二维码，那么微信里面会不会对于线下的店会有一些提示？</p>
+<blockquote>
+<p>在目前这一阶段我们可能会很轻量地让用户能够看到在他附近还有哪些小程序存在</p>
+</blockquote>
+</blockquote>
+
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/读书/" rel="tag"># 读书</a>
+          
+            <a href="/tags/修身养性/" rel="tag"># 修身养性</a>
+          
+            <a href="/tags/互联网/" rel="tag"># 互联网</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/08/02/005_thinking_software_innovative_design/" rel="next" title="读书笔记之《思考软件 创新设计》">
+                <i class="fa fa-chevron-left"></i> 读书笔记之《思考软件 创新设计》
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/08/03/007_kanban-in-action_notes/" rel="prev" title="读书笔记之《看板实战》">
+                读书笔记之《看板实战》 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+  </div>
+
+
+          </div>
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image"
+                src="/images/avatar.gif"
+                alt="GeekPanshi's Blog" />
+            
+              <p class="site-author-name" itemprop="name">GeekPanshi's Blog</p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/archives/">
+                
+                    <span class="site-state-item-count">25</span>
+                    <span class="site-state-item-name">日志</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-categories">
+                  <a href="/categories/index.html">
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">14</span>
+                    <span class="site-state-item-name">分类</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  <a href="/tags/index.html">
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">15</span>
+                    <span class="site-state-item-name">标签</span>
+                  </a>
+                </div>
+              
+            </nav>
+          
+
+          
+            <div class="feed-link motion-element">
+              <a href="/rss2.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+            <div class="links-of-author motion-element">
+              
+                <span class="links-of-author-item">
+                  <a href="/about/" target="_blank" title="微信"><i class="fa fa-fw fa-weixin"></i>微信</a>
+                  
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="https://weibo.com/u/6726260941" target="_blank" title="微博"><i class="fa fa-fw fa-weibo"></i>微博</a>
+                  
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="hhttps://github.com/XingangShi" target="_blank" title="GitHub"><i class="fa fa-fw fa-github"></i>GitHub</a>
+                  
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="/mail-to/index.html" target="_blank" title="E-Mail"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                  
+                </span>
+              
+            </div>
+          
+
+          
+          
+
+          
+          
+
+          
+            
+          
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#2017-年-1-月-9-日上线的小程序-（2016-12-28-张小龙）"><span class="nav-text">2017 年 1 月 9 日上线的小程序 （2016-12-28 张小龙）</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-小程序之历史"><span class="nav-text">1. 小程序之历史</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-从小程序看微信的产品理念"><span class="nav-text">2. 从小程序看微信的产品理念</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-第一次完整阐述小程序"><span class="nav-text">3. 第一次完整阐述小程序</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-移动互联网的下一站：唾手可得"><span class="nav-text">4. 移动互联网的下一站：唾手可得</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5-小程序的特性"><span class="nav-text">5. 小程序的特性</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#6-我们为什么需要小程序"><span class="nav-text">6. 我们为什么需要小程序</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#7-小程序的定位：体验比网站好，比下载APP更便捷"><span class="nav-text">7. 小程序的定位：体验比网站好，比下载APP更便捷</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#8-关于小程序，大家关心的几个问题"><span class="nav-text">8. 关于小程序，大家关心的几个问题</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">GeekPanshi's Blog</span>
+
+  
+
+  
+</div>
+
+
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动 v3.7.1</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 – <a class="theme-link" target="_blank" href="https://theme-next.org">NexT.Pisces</a> v6.4.2</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+	
+    
+
+    
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=6.4.2"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=6.4.2"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=6.4.2"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=6.4.2"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=6.4.2"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=6.4.2"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=6.4.2"></script>
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+  <script type="text/javascript" src="/js/src/exturl.js?v=6.4.2"></script>
+
+
+  
+
+  
+
+</body>
+</html>

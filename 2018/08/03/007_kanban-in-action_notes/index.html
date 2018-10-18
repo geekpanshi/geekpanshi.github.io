@@ -1,0 +1,1579 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="zh-CN">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=6.4.2" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=6.4.2">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=6.4.2">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=6.4.2">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=6.4.2" color="#222">
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    version: '6.4.2',
+    sidebar: {"position":"left","display":"hide","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: 'BIL97P4C36',
+      apiKey: 'a374dec0c6aac3d462cf20ce87096436',
+      indexName: 'geekpanshi',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"输入关键字","hits_empty":"我们没有找到任何搜索结果: ${query}","hits_stats":"找到约${hits}条结果（用时${time}ms）"}
+    }
+  };
+</script>
+
+
+  
+
+
+
+
+  <meta name="description" content="读书笔记之《看板实战》（《Kanban IN ACTION》）  看板方法即是移动互联网时代引领组织变革和改进团队开发过程的强大武器，也是平稳地落实精益和敏捷开发时间的的首选工具。   序0.1 看板的原理：     0.1.1 将知识工作中本不可见的信号可视化，将团队从混沌中解脱出来，教导团队学会“拉动”的方式工作，收到信号时           迅速做出恰当的响应，而不是无序地“推动”。">
+<meta name="keywords" content="读书,修身养性,项目管理">
+<meta property="og:type" content="article">
+<meta property="og:title" content="读书笔记之《看板实战》">
+<meta property="og:url" content="https://geekpanshi.coding.me/2018/08/03/007_kanban-in-action_notes/index.html">
+<meta property="og:site_name" content="Geek Panshi">
+<meta property="og:description" content="读书笔记之《看板实战》（《Kanban IN ACTION》）  看板方法即是移动互联网时代引领组织变革和改进团队开发过程的强大武器，也是平稳地落实精益和敏捷开发时间的的首选工具。   序0.1 看板的原理：     0.1.1 将知识工作中本不可见的信号可视化，将团队从混沌中解脱出来，教导团队学会“拉动”的方式工作，收到信号时           迅速做出恰当的响应，而不是无序地“推动”。">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2018-10-18T10:53:41.830Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="读书笔记之《看板实战》">
+<meta name="twitter:description" content="读书笔记之《看板实战》（《Kanban IN ACTION》）  看板方法即是移动互联网时代引领组织变革和改进团队开发过程的强大武器，也是平稳地落实精益和敏捷开发时间的的首选工具。   序0.1 看板的原理：     0.1.1 将知识工作中本不可见的信号可视化，将团队从混沌中解脱出来，教导团队学会“拉动”的方式工作，收到信号时           迅速做出恰当的响应，而不是无序地“推动”。">
+
+
+
+  <link rel="alternate" href="/rss2.xml" title="Geek Panshi" type="application/atom+xml" />
+
+
+
+
+  <link rel="canonical" href="https://geekpanshi.coding.me/2018/08/03/007_kanban-in-action_notes/"/>
+
+
+
+<script type="text/javascript" id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+
+  <title>读书笔记之《看板实战》 | Geek Panshi</title>
+  
+
+
+
+
+
+
+
+
+
+  <noscript>
+  <style type="text/css">
+    .use-motion .motion-element,
+    .use-motion .brand,
+    .use-motion .menu-item,
+    .sidebar-inner,
+    .use-motion .post-block,
+    .use-motion .pagination,
+    .use-motion .comments,
+    .use-motion .post-header,
+    .use-motion .post-body,
+    .use-motion .collection-title { opacity: initial; }
+
+    .use-motion .logo,
+    .use-motion .site-title,
+    .use-motion .site-subtitle {
+      opacity: initial;
+      top: initial;
+    }
+
+    .use-motion {
+      .logo-line-before i { left: initial; }
+      .logo-line-after i { right: initial; }
+    }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Geek Panshi</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+    
+      
+        <p class="site-subtitle">价值投资 终身学习 践行家庭教育</p>
+      
+    
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="切换导航栏">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+        
+          
+          <li class="menu-item menu-item-home">
+    <a href="/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-home"></i> <br />首页</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-about">
+    <a href="/about/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-user"></i> <br />关于</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-tags">
+    <a href="/tags/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />标签</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-categories">
+    <a href="/categories/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-th"></i> <br />分类</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-archives">
+    <a href="/archives/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />归档</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-sitemap">
+    <a href="/sitemap.xml" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-sitemap"></i> <br />站点地图</a>
+  </li>
+
+      
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />搜索</a>
+        </li>
+      
+    </ul>
+  
+
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off"
+             placeholder="搜索..." spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+  
+
+
+
+</div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+            
+
+          
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://geekpanshi.coding.me/2018/08/03/007_kanban-in-action_notes/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="GeekPanshi's Blog">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Geek Panshi">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">读书笔记之《看板实战》
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-08-03 00:40:46" itemprop="dateCreated datePublished" datetime="2018-08-03T00:40:46+08:00">2018-08-03</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-10-18 18:53:41" itemprop="dateModified" datetime="2018-10-18T18:53:41+08:00">2018-10-18</time>
+              
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/学习进阶/" itemprop="url" rel="index"><span itemprop="name">学习进阶</span></a></span>
+
+                
+                
+                  ，
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/学习进阶/读书荐书/" itemprop="url" rel="index"><span itemprop="name">读书荐书</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h3 id="读书笔记之《看板实战》（《Kanban-IN-ACTION》）"><a href="#读书笔记之《看板实战》（《Kanban-IN-ACTION》）" class="headerlink" title="读书笔记之《看板实战》（《Kanban IN ACTION》）"></a>读书笔记之《看板实战》（《Kanban IN ACTION》）</h3><hr>
+<blockquote>
+<p>看板方法即是移动互联网时代引领组织变革和改进团队开发过程的强大武器，也是平稳地落实精益和敏捷开发时间的的首选工具。</p>
+</blockquote>
+<hr>
+<h4 id="序"><a href="#序" class="headerlink" title="序"></a>序</h4><pre><code>0.1 看板的原理：
+    0.1.1 将知识工作中本不可见的信号可视化，将团队从混沌中解脱出来，教导团队学会“拉动”的方式工作，收到信号时
+          迅速做出恰当的响应，而不是无序地“推动”。
+    0.1.2 通过限制在制品数目，让知识工作者不再同时开始许多新的工作，而是力求快速完成已经开始的那些。
+0.2 看板要求
+    0.2.1 团队将组织处理信号的规则显示化，利用精益度量体系对系统及时进行分析回顾，不断优化信号的处理模式，从
+          而形成反馈闭环，最终建立一个具备自我完善能力，并能够随着组织发展和环境变化不断演进的自适应系统。
+0.3 看板的三个要素
+    0.3.1 可视化
+    0.3.2 限制制品数目（WIP）
+    0.3.3 管理流程
+0.3 其他观点
+    0.3.1 真实地看到工作和流程有助于理解。
+    0.3.2 工作不应该去适配时间，而是需要流动。
+    0.3.3 高质量地完成工作只有在工作以可持续的节奏流动时才有可能。
+    0.3.4 合理的在制品数量，可以让工作变的以可度量且质量可控方式去完成，产能也高的。
+</code></pre><h4 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h4><pre><code>1.1 很多团队的工作流程并不适合 Srume（固定时间盒的启动停止本质）。
+1.2 生活如有负重前行，不可急躁，以免跌倒……，找出自身的问题而不是别人的问题。
+</code></pre><h4 id="一、学习看板"><a href="#一、学习看板" class="headerlink" title="一、学习看板"></a>一、学习看板</h4><h5 id="1-看板之旅"><a href="#1-看板之旅" class="headerlink" title="1. 看板之旅"></a>1. 看板之旅</h5><pre><code>1.1 看板可视化工作
+    1.1.1 让隐藏的工作无处遁形
+        a. 为每个工作项建立一个即时贴即可轻易做到
+    1.1.2 帮你理清
+        a. 谁在干什么
+        b. 你正在处理什么
+        c. 进行中的工作量
+    1.1.3 工作可视化后，信息将散播给看到的每个人
+1.2 看板的工作流程（整个工作流称为 前置时间）
+    -------------------------------------------------------------------------
+    |      | 待办 | 分析 | 开发 | 测试 | 验收 | 等待运维发布 | 发布生产环境 |
+    -------------------------------------------------------------------------
+    | 加快 |      |      |      |      |      |              |              |
+    -------------------------------------------------------------------------
+    |      |      |      |      |      |      |              |              |
+    |      |      |      |      |      |      |              |              |
+    -------------------------------------------------------------------------
+1.3 工作流映射到白板上
+    1.3.1 识别所有阶段，从工作进入到工作离开团队
+    1.3.2 不要奢求完美
+        a. 检查并进行调整
+    1.3.3 工作直到对客户产生价值才算完成
+    1.3.4 通过可视化工作流，可以看到
+        a. 工作状态
+        b. 潜在问题，比如工作没有进展并在某个阶段堆积如山
+1.4 卡片内容有哪些
+    1.4.1 从卡片上你可以
+        a. 看到工作项的进展状态
+        b. 能够决定下一步如何处理
+    1.4.2 常见属性
+        a. 工作项描述
+        b. 电子系统中的唯一标识
+        c. 完成期限
+        d. 谁在处理这个工作
+        e. 工作类型（比如 bug 或 常规工作）
+1.5 限制在制品（WIP）
+    1.5.1 致力于减少同时处理的工作项
+    1.5.2 批量规模越小，前置时间越短
+    1.5.3 流动效率提升的同时资源效率会有所降低
+    1.5.4 类似传递便士的游戏或模拟方法是教人抽象概念的很有力的方式
+1.6 限制在制品
+    1.6.1 立即实施：停止立项并开始完成
+    1.6.2 限制在制品将是改进机会浮出水面
+        a. 着手改进后获得更快的流动
+    1.6.3 不要企图找到一个唯一正确的数字作为团队的在制品规模
+    1.6.4 通常在制品规模越低越好。一个经验法则如下
+        a. 在制品规模高会有工作闲置
+        b. 在制品规模低会有人要闲置
+    1.6.5 在制品限制不是仅为了设立规则，而是为了触发讨论
+1.7 快速通道
+    1.7.1 处理特殊情况的常用方式
+        a. 如紧急的工作
+    1.7.2 通常在白板上刻划为单独通道
+    1.7.3 快速通道的相关规则如下
+        a. 任何时候最后只能有一个工作项在快速通道内
+        b. 每周最多一个紧急工作
+        c. 快速通道的工作项无需计入在制品限制
+1.8 度量
+    1.8.1 有利于团队改进
+    1.8.2 团队自己选择度量指标，且不要将度量指标用于绩效考核
+    1.8.3 常用的度量指标为：
+        a. 前置时间是整个工作流的时间
+        b. 吞吐量是一定时间段内完成的工作项数目
+</code></pre><h4 id="二、理解看板"><a href="#二、理解看板" class="headerlink" title="二、理解看板"></a>二、理解看板</h4><h5 id="2-看板原则"><a href="#2-看板原则" class="headerlink" title="2. 看板原则"></a>2. 看板原则</h5><pre><code>2.1 看板方法、看板、看板系统
+    2.1.1 看板方法
+        a. 看板方法（Kanban，大写K），一种在组织中创建逐渐变革的方法。
+    2.1.2 看板
+        a. 看板（大小写k都可以），有时指的是一种可视化流程管理系统，用以描述生产什么。何时生产以及生产多少，有时
+           指的是实际的视觉信号。
+    2.1.3 看板系统
+        a. 看板系统，用以跟踪在制品的系统。举个例子，一面看板墙加上信号卡和工作中遵循的规则就是一个看板系统。
+2.2 使用看板，指的使用某种看板系统来管理和优化看板（信号卡）以取得渐进的改善。
+2.3 看板的原则
+    2.3.1 可视化
+    2.3.2 限制在制品（WPI）
+    2.3.3 管理流动
+    2.3.4 显示化流程规则
+    2.3.5 建立反馈环路
+    2.3.6 协作式改进、实验中演进（使用模型或科学方法）
+2.4 重新定义原则
+    2.4.1 从现状开始
+    2.4.2 追求增量和渐进的改变
+    2.4.2 初始化，尊重现有的角色、职责和头衔
+    2.4.3 发挥组织中的各级领导力
+2.5 停止启动、聚焦完成。
+</code></pre><h5 id="3-可视化工作"><a href="#3-可视化工作" class="headerlink" title="3. 可视化工作"></a>3. 可视化工作</h5><pre><code>3.1 看板墙是个不错的工具，能够把工作的状态显示给团队。
+3.2 经常见面：每日站会
+    3.2.1 决定会议的时间
+    3.2.2 确保会议简短：最多 15 分钟
+    3.2.3 停止不涉及多数人的讨论，挪到会后进行
+3.3 不应该由经理、团队领导，或者教练设计整个看板墙。相反，应该是使用看板的团队成员来设计它。
+</code></pre><h5 id="4-工作项"><a href="#4-工作项" class="headerlink" title="4. 工作项"></a>4. 工作项</h5><pre><code>4.1 创建卡片的设计原则
+    4.1.1 促进决策制定
+    4.1.2 助力团队成员优化结果
+    4.1.3 展示工作类型和分类
+4.2 工作项卡片
+    4.2.1 工作项描述
+        a. 用户故事 模板：1. 作为【角色】，我想要【功能】，以便得到【价值】
+                          2. 为了【价值】，作为【角色】，我想要【功能】
+        b. 标题
+        c. “就是那个……” ：概述要 1. 简洁明了 2. 要点突出 3. 团队每个人都能理解
+        d. 头像 ： 1. 标明谁在做什么 2. 应该看上去像本人 3. 能用于限制在制品
+4.3 截至日期
+    4.3.1 标明工作项的截止日期
+    4.3.2 从其他信息中脱颖而出
+    4.3.3 可以用于提供工作项的时间盒
+4.4 阻塞事项
+    4.4.1 清楚地标明该工作项需要被关注
+    4.4.2 应当标明原因
+    4.4.3 展示进度条
+4.5 工作类型
+    4.5.1 红色：缺陷
+    4.5.2 绿色：维护工作或技术工作
+    4.5.3 黄色：功能需求
+</code></pre><h5 id="5-在制品（Work-In-Process）"><a href="#5-在制品（Work-In-Process）" class="headerlink" title="5. 在制品（Work In Process）"></a>5. 在制品（Work In Process）</h5><pre><code>5.1 利特尔法则
+    5.1.1 周期时间 = 在制品数目 / 吞吐量
+5.2 在制品是什么
+    5.2.1 尚未实现的需求规格说明
+    5.2.2 未被集成的代码
+    5.2.3 未测试的代码
+    5.2.4 尚未发布的代码
+5.3 在制品过多的影响
+    5.3.1 上下文切换
+    5.3.2 延迟带来额外的工作
+    5.3.3 加风险
+    5.3.4 更多开销
+    5.3.5 质量下降
+    5.3.6 缺少动力
+</code></pre><h5 id="6-限制在制品"><a href="#6-限制在制品" class="headerlink" title="6. 限制在制品"></a>6. 限制在制品</h5><pre><code>6.1 停止启动，聚焦完成。
+6.2 降低在制品规模，以 20% 的速度
+</code></pre><h5 id="7-管理流动"><a href="#7-管理流动" class="headerlink" title="7. 管理流动"></a>7. 管理流动</h5><pre><code>7.1 软件开发的 7 种浪费
+    7.1.1 部分完成的工作
+    7.1.2 多余的特性
+    7.1.3 重复学习
+    7.1.4 工作交接
+    7.1.5 延期
+    7.1.6 任务切换
+    7.1.7 缺陷
+7.2 帮助工作流动
+    7.2.1 限制在制品
+    7.2.2 缩短等待时间
+        a. 确保工作就绪
+        b. 确保工作项较小且尺寸相近
+    7.2.3 消除阻塞
+        a. 跟踪阻塞事项
+        b. 群集行动
+    7.2.4 避免返工
+        a. 价值需求和失败需求
+    7.2.5 跨职能团队
+    7.2.6 使用服务等级协议或目标时间来将工作放入时间盒并优先处理重要工作
+7.3 每日站会
+    7.3.1 站会的常用优秀实践
+        a. 团队每日报到
+        b. 站会很短（5 到 15 分钟）
+        c. 站会准时开始（和结束）
+        d. 站会聚焦重点
+        e. 站会要有规律
+7.4 每日站会的看板实践
+    7.4.1 关注事（接力棒），而不是人（运动员）
+    7.4.2 遍历看板墙，从右至左
+    7.4.3 关注“味道”和偏离
+    7.4.4 扪心自问：你所有的工作都在看板墙上了吗？
+    7.4.5 处理错误的工作：我们在做正确的事情吗？
+    7.4.6 不理解工作的规则：我们理解我们的工作规则吗？
+    7.4.7 每日站会之后，鼓励自发改善会议
+7.5 管理瓶颈
+    7.5.1 识别系统约束
+    7.5.2 充分利用约束
+    7.5.3 使其他工作服务于充分利用约束这一步
+    7.5.4 打破约束
+    7.5.5 重复，重复检查，确认是否是系统中最大的约束
+</code></pre><h4 id="三、高级看板"><a href="#三、高级看板" class="headerlink" title="三、高级看板"></a>三、高级看板</h4><h5 id="8-服务类型"><a href="#8-服务类型" class="headerlink" title="8. 服务类型"></a>8. 服务类型</h5><pre><code>8.1 紧急类型的例子
+    8.1.1 是相对正常工作流的例外
+    8.1.2 优先级高于正常条目
+    8.1.3 占看板墙上一个单独的泳道
+    8.1.4 不计入在制品限制
+    8.1.5 可能需要根因分析
+8.2 如何对待和处理类似工作的显示策略
+8.3 帮助团队自组织
+8.4 创建一个服务类型要考虑的因素
+    8.4.1 可视化
+    8.4.2 对在制品影响
+    8.4.3 优先级设定
+    8.4.4 不同的工作流
+8.5 常见的服务类型
+    8.5.1 固定交付日期类
+        a. 必须满足某一期限要求（不能过早或过迟）
+        b. 在即时贴上清晰标明日期
+        c. 优先级高于其他低风险的条目
+        d. 可以被提升为紧急类
+    8.5.2 常规类
+        a. 最基础的工作项
+        b. 紧急程度随时间递增
+        c. 按先入先出的顺序被拉入
+    8.5.3 无形类
+        a. 没有直接的业务价值，但是很重要
+        b. 例如：技术债务
+        c. 在没有其他类型的工作时被拉入
+        d. 为无形类分配部分产能，以确保它不会被遗忘
+    8.5.4 缺陷类
+        a. 不被期望的非必要工作
+        b. 返工和质量失效
+        c. 应该做根因分析
+        d. 可以跳过看板墙上的某些步骤，如分析和设计
+8.6 管理服务类别
+    8.6.1 把工作归类为服务类型
+    8.6.2 拆分工作并重要归类
+    8.6.3 按大小或客户指定服务类别
+        a. 按大小
+        b. 按客户
+    8.6.4 重要的客户可以对应一个单独的服务类型
+    8.6.5 根据来源不同制定服务类别。
+8.7 别搞得太复杂，不要超过 5 ～ 7 个服务类别。
+8.8 放大、探索而后简化
+    8.8.1 放大（更多的列/分类），探索，然后再简化为我们看得到的可行的模式。
+</code></pre><h5 id="9-计划和估算"><a href="#9-计划和估算" class="headerlink" title="9. 计划和估算"></a>9. 计划和估算</h5><pre><code>9.1 计划的安排：什么时候需要计划
+    9.1.1 即时计划
+        a. 即时 = 恰当需要的时刻
+        b. 计划过多的工作带来库存，导致更加不敏捷
+        c. 更经常的计划，也意味着更经常的会议
+        d. 在流程中创建信号来通知你需要更多的工作了
+        e. 流程中的事件可以驱动它的发生
+    9.1.2 订货点
+        a. 需要更多工作的信号
+        b. 画成“输入”列的一条横线
+        c. 越过这条线后，你应该组织一个会议来计划更多工作
+        f. 在“输入”列中剩余工作的数目以及召集计划所需要的时间之间做好平衡
+    9.1.3 优先级过滤：可视化出“什么是重要的”
+        a. 可视化你的优先级设定
+        b. 优先级1 = 你需要立即开始的工作
+        c. 按产能限制条目，以保证各个工作项的前置时间
+        d. “什么是现在我们需要做的最重要的事？” - 当有空间容纳更多的优先级1的条目要问的问题
+9.2 节拍
+    9.2.1 迭代和看板
+    9.2.2 从基于迭代的流程开始迁移
+    9.2.3 看板的节拍
+    9.2.4 不要把看板作为偷懒的理由
+9.3 用看板的方式做计划：痛苦更少，收获更多
+    9.3.1 计划和估算的必要性变小
+    9.3.2 理性地归因：客户的诉求
+    9.3.3 不做估算，你可以完全抛弃它吗
+</code></pre><h5 id="10-流程改进"><a href="#10-流程改进" class="headerlink" title="10. 流程改进"></a>10. 流程改进</h5><pre><code>10.1 回顾会议
+    10.1.1 从流程学习，以改进流程
+    10.1.2 建议的步骤
+        a. 启动回顾
+        b. 收集数据
+        c. 产生洞察
+        d. 决定做什么
+        e. 结束回顾
+    10.1.3 更频繁的小回顾，而不是相隔很长时间的大回顾
+10.2 看板招式
+    10.2.1 通过一些预设的问题来持续改进
+    10.2.2 基于科学方法
+    10.2.3 面向愿景，采取小的步骤逐渐逼近愿景
+    10.2.4 三招式
+        a. 每日招式：用于日常的活动
+        b. 改进招式：用于改进流程
+        c. 教练招式：用于改进学习者
+</code></pre><h5 id="11-用度量指导改进"><a href="#11-用度量指导改进" class="headerlink" title="11. 用度量指导改进"></a>11. 用度量指导改进</h5><pre><code>11.1 常用度量指标
+    11.1.1 周期和前置时间
+    11.1.2 吞吐量
+    11.1.3 问题和受阻工作项
+    11.1.4 交期绩效
+    11.1.5 质量
+    11.1.6 价值需求和失效需求
+    11.1.7 被抛弃的想法
+11.2 两个强大的可视化方法
+    11.2.1 统计过程控制（SPC - Statistical Process Control，运行图）
+        a. 变异原则
+            a.1 你应该预计到事情会变异（波动），它们总是这样。
+            a.2 理解变异，你就能知道可以预期什么。
+            a.3 找到变异的原因，它们总是存在于系统之中。
+            a.4 理解变异，它能够告诉你发生了什么。
+        b. 可以很容易地手工绘制
+        c. 通过统计可以清晰地展示异常点
+        d. 为了绘制该图，你需要要各个条目的开始和结束时间。
+    11.2.2 累积流图（CFD - cumulative flow diagram）
+        a. 为了绘制该图，你需要逐日记录工作项状态信息
+        b. 包含了许多信息，如每个步骤的在制品数目、前置和周期时间等
+11.3 用度量指导改进
+    11.3.1 使其可视化
+    11.3.2 是否产生业务影响
+    11.3.3 你将得到你度量的东西
+    11.3.4 平衡度量指标
+    11.3.5 让数据易于获取
+    11.2.6 优先使用真实数据而不是估算数据
+    11.2.7 把数据用于改进，而不是惩罚
+</code></pre><h5 id="12-看板陷阱"><a href="#12-看板陷阱" class="headerlink" title="12. 看板陷阱"></a>12. 看板陷阱</h5><pre><code>12.1 只工作不玩耍，聪明孩子也变傻
+12.2 建立庆祝的节奏
+12.3 时间盒对你有用
+12.4 必要的变革
+12.5 不要让看板成为懒惰的借口
+</code></pre>
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/读书/" rel="tag"># 读书</a>
+          
+            <a href="/tags/修身养性/" rel="tag"># 修身养性</a>
+          
+            <a href="/tags/项目管理/" rel="tag"># 项目管理</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/08/02/006_whats_in_weixin_which_2017019_onllining/" rel="next" title="2017 年 1 月 9 日上线的小程序 （2016-12-28 张小龙）">
+                <i class="fa fa-chevron-left"></i> 2017 年 1 月 9 日上线的小程序 （2016-12-28 张小龙）
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/08/14/008_daodejing/" rel="prev" title="读书笔记之《道德经》">
+                读书笔记之《道德经》 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+  </div>
+
+
+          </div>
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image"
+                src="/images/avatar.gif"
+                alt="GeekPanshi's Blog" />
+            
+              <p class="site-author-name" itemprop="name">GeekPanshi's Blog</p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/archives/">
+                
+                    <span class="site-state-item-count">25</span>
+                    <span class="site-state-item-name">日志</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-categories">
+                  <a href="/categories/index.html">
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">14</span>
+                    <span class="site-state-item-name">分类</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  <a href="/tags/index.html">
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">15</span>
+                    <span class="site-state-item-name">标签</span>
+                  </a>
+                </div>
+              
+            </nav>
+          
+
+          
+            <div class="feed-link motion-element">
+              <a href="/rss2.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+            <div class="links-of-author motion-element">
+              
+                <span class="links-of-author-item">
+                  <a href="/about/" target="_blank" title="微信"><i class="fa fa-fw fa-weixin"></i>微信</a>
+                  
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="https://weibo.com/u/6726260941" target="_blank" title="微博"><i class="fa fa-fw fa-weibo"></i>微博</a>
+                  
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="hhttps://github.com/XingangShi" target="_blank" title="GitHub"><i class="fa fa-fw fa-github"></i>GitHub</a>
+                  
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="/mail-to/index.html" target="_blank" title="E-Mail"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                  
+                </span>
+              
+            </div>
+          
+
+          
+          
+
+          
+          
+
+          
+            
+          
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#读书笔记之《看板实战》（《Kanban-IN-ACTION》）"><span class="nav-text">读书笔记之《看板实战》（《Kanban IN ACTION》）</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#序"><span class="nav-text">序</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#前言"><span class="nav-text">前言</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#一、学习看板"><span class="nav-text">一、学习看板</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#1-看板之旅"><span class="nav-text">1. 看板之旅</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#二、理解看板"><span class="nav-text">二、理解看板</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#2-看板原则"><span class="nav-text">2. 看板原则</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#3-可视化工作"><span class="nav-text">3. 可视化工作</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#4-工作项"><span class="nav-text">4. 工作项</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#5-在制品（Work-In-Process）"><span class="nav-text">5. 在制品（Work In Process）</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#6-限制在制品"><span class="nav-text">6. 限制在制品</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#7-管理流动"><span class="nav-text">7. 管理流动</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#三、高级看板"><span class="nav-text">三、高级看板</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#8-服务类型"><span class="nav-text">8. 服务类型</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#9-计划和估算"><span class="nav-text">9. 计划和估算</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#10-流程改进"><span class="nav-text">10. 流程改进</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#11-用度量指导改进"><span class="nav-text">11. 用度量指导改进</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#12-看板陷阱"><span class="nav-text">12. 看板陷阱</span></a></li></ol></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">GeekPanshi's Blog</span>
+
+  
+
+  
+</div>
+
+
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动 v3.7.1</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 – <a class="theme-link" target="_blank" href="https://theme-next.org">NexT.Pisces</a> v6.4.2</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+	
+    
+
+    
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=6.4.2"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=6.4.2"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=6.4.2"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=6.4.2"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=6.4.2"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=6.4.2"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=6.4.2"></script>
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+  <script type="text/javascript" src="/js/src/exturl.js?v=6.4.2"></script>
+
+
+  
+
+  
+
+</body>
+</html>
