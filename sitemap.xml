@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://geekpanshi.coding.me/images/index.html</loc>
+    
+    <lastmod>2018-10-18T12:24:09.015Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://geekpanshi.coding.me/about/index.html</loc>
+    
+    <lastmod>2018-10-18T12:21:51.691Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://geekpanshi.coding.me/2018/09/21/014_my_git_backups/</loc>
     
     <lastmod>2018-10-18T11:55:56.619Z</lastmod>
@@ -124,13 +138,6 @@
     <loc>https://geekpanshi.coding.me/2018/09/28/016_comon_people_upgrade_way/</loc>
     
     <lastmod>2018-10-18T08:15:36.919Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://geekpanshi.coding.me/about/index.html</loc>
-    
-    <lastmod>2018-10-18T08:07:37.489Z</lastmod>
     
   </url>
   
