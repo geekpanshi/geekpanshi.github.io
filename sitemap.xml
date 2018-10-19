@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://geekpanshi.coding.me/categories/index.html</loc>
+    
+    <lastmod>2018-10-19T01:47:11.788Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://geekpanshi.coding.me/2018/10/19/20181019_%E5%A6%82%E4%BD%95%E5%9C%A85%E5%88%86%E9%92%9F%E5%86%85%E6%89%BE%E5%88%B0%E7%94%9F%E5%91%BD%E7%9A%84%E6%84%8F%E4%B9%89/</loc>
     
     <lastmod>2018-10-19T01:30:27.320Z</lastmod>
@@ -138,13 +145,6 @@
     <loc>https://geekpanshi.coding.me/search/index.html</loc>
     
     <lastmod>2018-10-18T08:37:00.486Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://geekpanshi.coding.me/categories/index.html</loc>
-    
-    <lastmod>2018-10-18T08:36:48.293Z</lastmod>
     
   </url>
   
