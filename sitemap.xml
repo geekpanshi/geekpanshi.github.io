@@ -2,51 +2,219 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://geekpanshi.coding.me/categories/index.html</loc>
+    <loc>https://geekpanshi.coding.me/2018/10/19/27_markdown_from_entry_to_mastery/</loc>
     
-    <lastmod>2018-10-19T01:47:11.788Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://geekpanshi.coding.me/2018/10/19/20181019_%E5%A6%82%E4%BD%95%E5%9C%A85%E5%88%86%E9%92%9F%E5%86%85%E6%89%BE%E5%88%B0%E7%94%9F%E5%91%BD%E7%9A%84%E6%84%8F%E4%B9%89/</loc>
-    
-    <lastmod>2018-10-19T01:30:27.320Z</lastmod>
+    <lastmod>2018-10-19T06:32:59.455Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://geekpanshi.coding.me/2018/10/19/20181019_%E6%AF%8F%E6%97%A5%E6%89%93%E5%8D%A1-2018/</loc>
+    <loc>https://geekpanshi.coding.me/2018/10/19/026_tortoise_git_could_not_agree_a_key_exchange_algorithm/</loc>
     
-    <lastmod>2018-10-19T01:30:14.240Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://geekpanshi.coding.me/2018/10/19/20181019_%E5%9D%9A%E6%8C%81%E7%9A%84%E5%8A%9B%E9%87%8F%E4%B9%8B%E6%95%B0%E6%8D%AE%E4%BA%BA%E7%94%9F-2018/</loc>
-    
-    <lastmod>2018-10-19T01:30:02.328Z</lastmod>
+    <lastmod>2018-10-19T02:35:25.333Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://geekpanshi.coding.me/2018/09/21/013_FM_make_friendship_with_books/</loc>
+    <loc>https://geekpanshi.coding.me/2018/10/18/024_FM_plan_to_read_books/</loc>
     
-    <lastmod>2018-10-19T00:56:49.273Z</lastmod>
+    <lastmod>2018-10-19T02:32:19.396Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://geekpanshi.coding.me/2018/10/17/023_my_Bullet-Journal_rules_for_TM/</loc>
+    
+    <lastmod>2018-10-19T02:32:19.278Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://geekpanshi.coding.me/2018/10/15/022_software_recommened/</loc>
+    
+    <lastmod>2018-10-19T02:32:19.191Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://geekpanshi.coding.me/2018/10/10/021_git_ignore_some_commited_files/</loc>
+    
+    <lastmod>2018-10-19T02:32:19.069Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://geekpanshi.coding.me/2018/10/03/020_data_is_power/</loc>
+    
+    <lastmod>2018-10-19T02:32:18.971Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://geekpanshi.coding.me/2018/10/02/019_roberts_rules_of_order/</loc>
+    
+    <lastmod>2018-10-19T02:32:18.851Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://geekpanshi.coding.me/2018/10/01/018_accounting_for_all/</loc>
+    
+    <lastmod>2018-10-19T02:32:18.763Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://geekpanshi.coding.me/2018/09/28/017_the_useful_tips/</loc>
     
-    <lastmod>2018-10-19T00:55:02.732Z</lastmod>
+    <lastmod>2018-10-19T02:32:18.674Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://geekpanshi.coding.me/2018/09/28/016_comon_people_upgrade_way/</loc>
     
-    <lastmod>2018-10-19T00:54:59.398Z</lastmod>
+    <lastmod>2018-10-19T02:32:18.559Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://geekpanshi.coding.me/2018/09/25/015_chrom_extend_programm/</loc>
+    
+    <lastmod>2018-10-19T02:32:18.448Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://geekpanshi.coding.me/2018/09/21/014_my_git_backups/</loc>
+    
+    <lastmod>2018-10-19T02:32:18.340Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://geekpanshi.coding.me/2018/09/21/013_FM_make_friendship_with_books/</loc>
+    
+    <lastmod>2018-10-19T02:32:18.255Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://geekpanshi.coding.me/2018/10/19/20181019_%E5%9D%9A%E6%8C%81%E7%9A%84%E5%8A%9B%E9%87%8F%E4%B9%8B%E6%95%B0%E6%8D%AE%E4%BA%BA%E7%94%9F-2018/</loc>
+    
+    <lastmod>2018-10-19T02:32:18.151Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://geekpanshi.coding.me/2018/10/19/20181019_%E6%AF%8F%E6%97%A5%E6%89%93%E5%8D%A1-2018/</loc>
+    
+    <lastmod>2018-10-19T02:32:18.043Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://geekpanshi.coding.me/2018/10/19/20181019_%E5%A6%82%E4%BD%95%E5%9C%A85%E5%88%86%E9%92%9F%E5%86%85%E6%89%BE%E5%88%B0%E7%94%9F%E5%91%BD%E7%9A%84%E6%84%8F%E4%B9%89/</loc>
+    
+    <lastmod>2018-10-19T02:32:17.933Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://geekpanshi.coding.me/2018/10/18/025_11_rules_for_TM/</loc>
+    
+    <lastmod>2018-10-19T02:32:17.823Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://geekpanshi.coding.me/2018/09/20/012_the_instant_economist/</loc>
+    
+    <lastmod>2018-10-19T02:32:17.729Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://geekpanshi.coding.me/2018/08/31/011_FQ_book_recommand/</loc>
+    
+    <lastmod>2018-10-19T02:32:17.638Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://geekpanshi.coding.me/2018/08/29/010_shuaungcai_of_books/</loc>
+    
+    <lastmod>2018-10-19T02:32:17.557Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://geekpanshi.coding.me/2018/08/18/009_pengjun_of_books/</loc>
+    
+    <lastmod>2018-10-19T02:32:17.467Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://geekpanshi.coding.me/2018/08/14/008_daodejing/</loc>
+    
+    <lastmod>2018-10-19T02:32:17.351Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://geekpanshi.coding.me/2018/08/03/007_kanban-in-action_notes/</loc>
+    
+    <lastmod>2018-10-19T02:32:17.241Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://geekpanshi.coding.me/2018/08/02/006_whats_in_weixin_which_2017019_onllining/</loc>
+    
+    <lastmod>2018-10-19T02:32:17.124Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://geekpanshi.coding.me/2018/08/02/005_thinking_software_innovative_design/</loc>
+    
+    <lastmod>2018-10-19T02:32:17.012Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://geekpanshi.coding.me/2018/08/02/004_guanghuan_sharing_pmp/</loc>
+    
+    <lastmod>2018-10-19T02:32:16.900Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://geekpanshi.coding.me/2018/08/02/003_be_care_of_kpi_and_flow/</loc>
+    
+    <lastmod>2018-10-19T02:32:16.817Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://geekpanshi.coding.me/2018/08/02/002_actor_of_xud_in_all_project_time/</loc>
+    
+    <lastmod>2018-10-19T02:32:16.733Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://geekpanshi.coding.me/2018/08/01/001_use_hexo_with_github_create_yourwebsit/</loc>
+    
+    <lastmod>2018-10-19T02:32:16.625Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://geekpanshi.coding.me/categories/index.html</loc>
+    
+    <lastmod>2018-10-19T01:47:11.788Z</lastmod>
     
   </url>
   
@@ -65,76 +233,6 @@
   </url>
   
   <url>
-    <loc>https://geekpanshi.coding.me/2018/09/21/014_my_git_backups/</loc>
-    
-    <lastmod>2018-10-18T11:55:56.619Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://geekpanshi.coding.me/2018/10/18/025_11_rules_for_TM/</loc>
-    
-    <lastmod>2018-10-18T11:44:41.410Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://geekpanshi.coding.me/2018/08/02/006_whats_in_weixin_which_2017019_onllining/</loc>
-    
-    <lastmod>2018-10-18T11:07:42.633Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://geekpanshi.coding.me/2018/08/02/005_thinking_software_innovative_design/</loc>
-    
-    <lastmod>2018-10-18T11:07:37.266Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://geekpanshi.coding.me/2018/08/03/007_kanban-in-action_notes/</loc>
-    
-    <lastmod>2018-10-18T10:53:41.830Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://geekpanshi.coding.me/2018/08/02/004_guanghuan_sharing_pmp/</loc>
-    
-    <lastmod>2018-10-18T10:52:41.722Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://geekpanshi.coding.me/2018/08/02/002_actor_of_xud_in_all_project_time/</loc>
-    
-    <lastmod>2018-10-18T10:51:24.006Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://geekpanshi.coding.me/2018/08/02/003_be_care_of_kpi_and_flow/</loc>
-    
-    <lastmod>2018-10-18T10:51:12.078Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://geekpanshi.coding.me/2018/10/01/018_accounting_for_all/</loc>
-    
-    <lastmod>2018-10-18T09:05:14.033Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://geekpanshi.coding.me/2018/10/10/021_git_ignore_some_commited_files/</loc>
-    
-    <lastmod>2018-10-18T09:02:36.762Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://geekpanshi.coding.me/tags/index.html</loc>
     
     <lastmod>2018-10-18T08:37:25.399Z</lastmod>
@@ -149,20 +247,6 @@
   </url>
   
   <url>
-    <loc>https://geekpanshi.coding.me/2018/10/18/024_FM_plan_to_read_books/</loc>
-    
-    <lastmod>2018-10-18T08:23:31.845Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://geekpanshi.coding.me/2018/08/31/011_FQ_book_recommand/</loc>
-    
-    <lastmod>2018-10-18T08:22:11.080Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://geekpanshi.coding.me/404.html</loc>
     
     <lastmod>2018-10-18T08:02:29.715Z</lastmod>
@@ -173,76 +257,6 @@
     <loc>https://geekpanshi.coding.me/mail-to/index.html</loc>
     
     <lastmod>2018-10-18T06:50:03.366Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://geekpanshi.coding.me/2018/10/02/019_roberts_rules_of_order/</loc>
-    
-    <lastmod>2018-10-18T06:35:28.648Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://geekpanshi.coding.me/2018/08/14/008_daodejing/</loc>
-    
-    <lastmod>2018-10-18T06:35:11.701Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://geekpanshi.coding.me/2018/09/20/012_the_instant_economist/</loc>
-    
-    <lastmod>2018-10-18T06:33:41.187Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://geekpanshi.coding.me/2018/10/17/023_my_Bullet-Journal_rules_for_TM/</loc>
-    
-    <lastmod>2018-10-18T06:27:03.811Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://geekpanshi.coding.me/2018/09/25/015_chrom_extend_programm/</loc>
-    
-    <lastmod>2018-10-18T06:26:55.428Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://geekpanshi.coding.me/2018/10/15/022_software_recommened/</loc>
-    
-    <lastmod>2018-10-18T06:26:48.315Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://geekpanshi.coding.me/2018/08/01/001_use_hexo_with_github_create_yourwebsit/</loc>
-    
-    <lastmod>2018-10-18T06:25:31.960Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://geekpanshi.coding.me/2018/10/03/020_data_is_power/</loc>
-    
-    <lastmod>2018-10-18T06:24:25.925Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://geekpanshi.coding.me/2018/08/18/009_pengjun_of_books/</loc>
-    
-    <lastmod>2018-10-18T06:24:17.171Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://geekpanshi.coding.me/2018/08/29/010_shuaungcai_of_books/</loc>
-    
-    <lastmod>2018-10-18T06:24:00.764Z</lastmod>
     
   </url>
   
