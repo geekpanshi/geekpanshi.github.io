@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.geekpanshi.com/images/index.html</loc>
+    
+    <lastmod>2018-12-29T06:59:54.468Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.geekpanshi.com/about/index.html</loc>
+    
+    <lastmod>2018-12-29T06:54:51.400Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.geekpanshi.com/archives/Infinity.html</loc>
     
     <lastmod>2018-12-29T03:34:03.448Z</lastmod>
@@ -369,13 +383,6 @@
     <loc>https://www.geekpanshi.com/archives/e54faf4b.html</loc>
     
     <lastmod>2018-12-07T23:24:40.251Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.geekpanshi.com/about/index.html</loc>
-    
-    <lastmod>2018-12-07T03:14:45.541Z</lastmod>
     
   </url>
   
@@ -943,13 +950,6 @@
     <loc>https://www.geekpanshi.com/mail-to/index.html</loc>
     
     <lastmod>2018-12-05T05:57:46.409Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.geekpanshi.com/images/index.html</loc>
-    
-    <lastmod>2018-12-03T01:52:35.016Z</lastmod>
     
   </url>
   
