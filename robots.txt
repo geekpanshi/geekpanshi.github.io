@@ -11,4 +11,3 @@ Disallow: /vendors/
 Disallow: /fancybox/
 Sitemap: http://www.geekpanshi.com/sitemap.xml
 Sitemap: http://www.geekpanshi.com/baidusitemap.xml
-
