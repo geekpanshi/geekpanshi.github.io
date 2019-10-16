@@ -1,3 +1,3 @@
-// build time:Thu Oct 17 2019 05:21:28 GMT+0800 (GMT+08:00)
+// build time:Thu Oct 17 2019 05:31:59 GMT+0800 (GMT+08:00)
 !window._bd_share_is_recently_loaded&&window._bd_share_main.F.module("component/comm_tools",function(n,o){var r=function(){var n=window.location||document.location||{};return n.href||""},t=function(n,o){var r=n.length,t="";for(var a=1;a<=o;a++){var e=Math.floor(r*Math.random());t+=n.charAt(e)}return t},a=function(){var n=(+new Date).toString(36),o=t("0123456789abcdefghijklmnopqrstuvwxyz",3);return n+o};o.getLinkId=a,o.getPageUrl=r});
 //rebuild by neat 
