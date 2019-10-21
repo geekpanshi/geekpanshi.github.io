@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.geekpanshi.com/mail-to/index.html</loc>
+    
+    <lastmod>2019-10-21T07:24:16.177Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.geekpanshi.com/archives/ba44a3eb.html</loc>
     
-    <lastmod>2019-10-21T07:13:13.433Z</lastmod>
+    <lastmod>2019-10-21T07:13:24.559Z</lastmod>
     
   </url>
   
@@ -709,14 +716,14 @@
   </url>
   
   <url>
-    <loc>https://www.geekpanshi.com/archives/a1bc9768.html</loc>
+    <loc>https://www.geekpanshi.com/archives/e91ba86d.html</loc>
     
     <lastmod>2019-07-29T13:00:21.007Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.geekpanshi.com/archives/e91ba86d.html</loc>
+    <loc>https://www.geekpanshi.com/archives/a1bc9768.html</loc>
     
     <lastmod>2019-07-29T13:00:21.007Z</lastmod>
     
@@ -975,14 +982,14 @@
   </url>
   
   <url>
-    <loc>https://www.geekpanshi.com/archives/154c2303.html</loc>
+    <loc>https://www.geekpanshi.com/archives/3190a71a.html</loc>
     
     <lastmod>2019-07-29T12:59:22.693Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.geekpanshi.com/archives/3190a71a.html</loc>
+    <loc>https://www.geekpanshi.com/archives/154c2303.html</loc>
     
     <lastmod>2019-07-29T12:59:22.693Z</lastmod>
     
@@ -1157,14 +1164,14 @@
   </url>
   
   <url>
-    <loc>https://www.geekpanshi.com/archives/f678e892.html</loc>
+    <loc>https://www.geekpanshi.com/archives/6276b94e.html</loc>
     
     <lastmod>2019-07-29T12:59:02.119Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.geekpanshi.com/archives/6276b94e.html</loc>
+    <loc>https://www.geekpanshi.com/archives/f678e892.html</loc>
     
     <lastmod>2019-07-29T12:59:02.119Z</lastmod>
     
@@ -1199,14 +1206,14 @@
   </url>
   
   <url>
-    <loc>https://www.geekpanshi.com/archives/e8b6a148.html</loc>
+    <loc>https://www.geekpanshi.com/archives/f5935430.html</loc>
     
     <lastmod>2019-07-29T12:58:48.650Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.geekpanshi.com/archives/f5935430.html</loc>
+    <loc>https://www.geekpanshi.com/archives/e8b6a148.html</loc>
     
     <lastmod>2019-07-29T12:58:48.650Z</lastmod>
     
@@ -1304,14 +1311,14 @@
   </url>
   
   <url>
-    <loc>https://www.geekpanshi.com/archives/442d2ae3.html</loc>
+    <loc>https://www.geekpanshi.com/archives/b5635e22.html</loc>
     
     <lastmod>2019-07-29T12:57:58.615Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.geekpanshi.com/archives/b5635e22.html</loc>
+    <loc>https://www.geekpanshi.com/archives/442d2ae3.html</loc>
     
     <lastmod>2019-07-29T12:57:58.615Z</lastmod>
     
@@ -1346,13 +1353,6 @@
   </url>
   
   <url>
-    <loc>https://www.geekpanshi.com/archives/c85c65a8.html</loc>
-    
-    <lastmod>2019-07-29T12:57:33.621Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://www.geekpanshi.com/archives/5f9a9cbb.html</loc>
     
     <lastmod>2019-07-29T12:57:33.621Z</lastmod>
@@ -1360,14 +1360,21 @@
   </url>
   
   <url>
-    <loc>https://www.geekpanshi.com/archives/44eb745a.html</loc>
+    <loc>https://www.geekpanshi.com/archives/c85c65a8.html</loc>
+    
+    <lastmod>2019-07-29T12:57:33.621Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.geekpanshi.com/archives/d21273a.html</loc>
     
     <lastmod>2019-07-29T12:57:32.277Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.geekpanshi.com/archives/d21273a.html</loc>
+    <loc>https://www.geekpanshi.com/archives/44eb745a.html</loc>
     
     <lastmod>2019-07-29T12:57:32.277Z</lastmod>
     
@@ -1475,13 +1482,6 @@
     <loc>https://www.geekpanshi.com/images/index.html</loc>
     
     <lastmod>2018-12-29T06:59:54.468Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.geekpanshi.com/mail-to/index.html</loc>
-    
-    <lastmod>2018-12-05T05:57:46.409Z</lastmod>
     
   </url>
   
