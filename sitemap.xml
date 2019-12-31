@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.geekpanshi.com/about/index.html</loc>
+    
+    <lastmod>2019-12-31T03:05:21.805Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.geekpanshi.com/archives/eee168c4.html</loc>
     
     <lastmod>2019-12-31T03:00:11.929Z</lastmod>
@@ -96,13 +103,6 @@
     <loc>https://www.geekpanshi.com/archives/9e708c90.html</loc>
     
     <lastmod>2019-12-30T11:31:11.204Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.geekpanshi.com/about/index.html</loc>
-    
-    <lastmod>2019-12-30T10:56:27.727Z</lastmod>
     
   </url>
   
