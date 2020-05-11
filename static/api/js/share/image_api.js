@@ -1,3 +1,3 @@
-// build time:Mon May 04 2020 14:34:41 GMT+0800 (GMT+08:00)
+// build time:Mon May 11 2020 14:11:56 GMT+0800 (GMT+08:00)
 window._bd_share_main.F.module("share/image_api",function(e,i,a){var n=e("base/tangram").T,t=e("base/class").Class,r=e("component/comm_tools"),o=e("share/api_base");i.Api=t.create(function(e){var i=this;i._init=function(){var e=i.getView();e.render(),e.init(),e.on("moreover",function(){e._keepBarVisible()})},i._processAction=function(a){var n=i.getView();return e.bdPic=n._getImageSrc(),{data:{type:"imgshare"}}},i._distory=function(){}},o.ApiBase)});
 //rebuild by neat 
