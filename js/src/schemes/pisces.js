@@ -1,3 +1,3 @@
-// build time:Sat Jun 06 2020 05:39:34 GMT+0800 (China Standard Time)
+// build time:Thu Jun 11 2020 14:09:19 GMT+0800 (GMT+08:00)
 $(document).ready(function(){var i=$(".sidebar-inner");var t=CONFIG.sidebar.offset?CONFIG.sidebar.offset:12;function e(){return $(".header-inner").height()+t}function r(){var i=$(".footer-inner");var t=i.outerHeight(true)-i.outerHeight();var e=i.outerHeight(true)+t;return e}function a(){var a=e();var f=r();var n=$("#sidebar").height()+NexT.utils.getSidebarb2tHeight();var o=$("#content").height();if(a+n<o){i.affix({offset:{top:a-t,bottom:f}});i.affix("checkPosition")}$("#sidebar").css({"margin-top":a,"margin-left":"initial"})}function f(){$(window).off(".affix");i.removeData("bs.affix").removeClass("affix affix-top affix-bottom");a()}function n(){var i=window.matchMedia("(min-width: 992px)");i.addListener(function(i){if(i.matches){f()}})}a();n()});
 //rebuild by neat 
