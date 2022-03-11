@@ -12,7 +12,7 @@ categories:
 slug: c6a1b293
 date: 2018-08-02 18:09:02
 ---
-<script type="text/javascript" src="/js/src/bai.js"></script>
+<script type="text/javascript" src="/assets/js/dist/bai.js"></script>
 
 ### 交互设计师在项目各个阶段的角色
 

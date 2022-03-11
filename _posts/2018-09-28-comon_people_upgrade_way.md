@@ -9,7 +9,7 @@ categories:
 slug: d21273a
 date: 2018-09-28 16:08:15
 ---
-<script type="text/javascript" src="/js/src/bai.js"></script>
+<script type="text/javascript" src="/assets/js/dist/bai.js"></script>
 
 ### 普通人如何打破阶层从而晋级的小建议
 

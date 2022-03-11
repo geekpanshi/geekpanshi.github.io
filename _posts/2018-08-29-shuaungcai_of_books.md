@@ -10,7 +10,7 @@ categories:
 slug: 775384db
 date: 2018-08-29 19:51:05
 ---
-<script type="text/javascript" src="/js/src/bai.js"></script>
+<script type="text/javascript" src="/assets/js/dist/bai.js"></script>
 
 ### 应刚跳槽做管理的同事推荐一些管理人的书籍
 ---

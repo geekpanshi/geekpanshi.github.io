@@ -12,7 +12,7 @@ categories:
 slug: 2a29d38e
 date: 2018-08-02 18:34:51
 ---
-<script type="text/javascript" src="/js/src/bai.js"></script>
+<script type="text/javascript" src="/assets/js/dist/bai.js"></script>
 
 ### 项目管理与实践论坛
 

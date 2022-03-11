@@ -12,7 +12,7 @@ categories:
 slug: 6dfb891e
 date: 2018-08-02 19:03:06
 ---
-<script type="text/javascript" src="/js/src/bai.js"></script>
+<script type="text/javascript" src="/assets/js/dist/bai.js"></script>
 
 ### 读书笔记之《思考软件 创新设计》
 

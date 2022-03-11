@@ -10,7 +10,7 @@ categories:
 slug: 5c1eb264
 date: 2018-08-18 19:51:15
 ---
-<script type="text/javascript" src="/js/src/bai.js"></script>
+<script type="text/javascript" src="/assets/js/dist/bai.js"></script>
 
 #### 应友推荐一些做人做事和做生意的书籍
 ---

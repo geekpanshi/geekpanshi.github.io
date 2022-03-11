@@ -16,7 +16,7 @@ keywords:
 slug: f71b4e73
 date: 2018-09-21 16:43:26
 ---
-<script type="text/javascript" src="/js/src/bai.js"></script>
+<script type="text/javascript" src="/assets/js/dist/bai.js"></script>
 
 ## 我的 Git 备忘单
 ---

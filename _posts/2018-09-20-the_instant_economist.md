@@ -26,7 +26,7 @@ description: 读书笔记之《斯坦福极简经济学》，「 各种常识的
 slug: 571f947c
 date: 2018-09-20 20:03:28
 ---
-<script type="text/javascript" src="/js/src/bai.js"></script>
+<script type="text/javascript" src="/assets/js/dist/bai.js"></script>
 
 
 #### 读书笔记之《斯坦福极简经济学》

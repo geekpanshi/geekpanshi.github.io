@@ -10,7 +10,7 @@ categories:
 slug: 6f800606
 date: 2018-10-01 14:28:36
 ---
-<script type="text/javascript" src="/js/src/bai.js"></script>
+<script type="text/javascript" src="/assets/js/dist/bai.js"></script>
 
 #### 全资产记账更适合家庭记账
 
