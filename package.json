@@ -37,7 +37,8 @@
       "commit": true,
       "tag": true
     },
-    "types": [{
+    "types": [
+      {
         "type": "feat",
         "section": "Features"
       },
@@ -50,5 +51,8 @@
         "section": "Improvements"
       }
     ]
+  },
+  "dependencies": {
+    "jekyll-store-google-analytics": "^0.0.2"
   }
 }

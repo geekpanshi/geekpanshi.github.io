@@ -191,6 +191,7 @@ exclude:
   - gulpfile.js
   - node_modules
   - package*.json
+  - .jekyll-cache
 
 jekyll-archives:
   posts : "/archives/:abbrlink.html"
@@ -206,3 +207,14 @@ plugins:
   - jekyll-org
   - jekyll-toc
   - jekyll-feed
+  - jekyll-archives
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-commonmark
+  - jekyll-include-cache
+
+markdown: CommonMark
+commonmark:
+   options: ["SMART", "FOOTNOTES"]
+   extensions: ["strikethrough", "autolink", "table"]
