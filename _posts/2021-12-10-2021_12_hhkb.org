@@ -1,8 +1,10 @@
 #+title: HHKB 键盘笔记
 #+AUTHOR: panshishuo
-#+slug: 0x3fd6cd5b5e800001
 #+date: <2021-12-10 19:24>
-#+TAGS: HHKB 政策 节日
+#+slug: 0x3fd6cd5b5e800001
+#+LAYOUT: post
+#+liquid: enabled
+#+TAGS: HHKB 键盘
 
 ***** [[https://item.jd.com/62603602537.html][HHKB 键盘]] 简介
 #+BEGIN_QUOTE
