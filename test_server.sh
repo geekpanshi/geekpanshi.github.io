@@ -1,1 +1,1 @@
-bundle exec jekyll s --port 5000 --trace
+bundle exec jekyll s --port 5000 --trace --incremental

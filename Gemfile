@@ -22,3 +22,5 @@ gem "webrick", "~> 1.7"
 gem 'jekyll-org', '>= 1.1.0'
 
 gem 'jekyll-toc'
+
+gem 'jekyll-feed'
