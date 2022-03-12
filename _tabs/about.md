@@ -47,11 +47,7 @@ date: 2019-09-08 06:00:20
 * [Geek Panshi'Blob 备份](https://www.geekpanshi.com// "备份 - Geek Panshi'Blob https://www.geekpanshi.com/")
   ![Geek Panshi'Blob 备份](/images/about/mfMfnTU.png "备份 - Geek Panshi'Blob https://www.geekpanshi.com/")
 
-#### 6. 网站使用图片资源
-
-* [网站使用图片资源](/images/ "网站使用图片资源")
-
-#### 7. 2019年我的新年FLAG
+#### 6. 2019年我的新年FLAG
 
 > <img src="/images/about/uZ7n0b7.jpg" width="450" height="300" align=center></img>
 
