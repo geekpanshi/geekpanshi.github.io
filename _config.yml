@@ -165,6 +165,11 @@ defaults:
     values:
       swcache: true
 
+analytics:
+  provider : false
+  google:
+    tracking_id          :
+
 sass:
   style: compressed
 
