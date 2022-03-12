@@ -1,0 +1,27 @@
+#+title: Org mode 相关资料
+#+AUTHOR: panshishuo
+#+date: <2021-11-10 18:00>
+
+**** 官网信息
+
+#+BEGIN_QUOTE
+Org Mode — Your life in plain text
+
+A GNU Emacs major mode for keeping notes, authoring documents, computational notebooks, literate programming, maintaining to-do lists, planning projects, and more — in a fast and effective plain text system.
+#+END_QUOTE
+
+***** [[https://orgmode.org/][Org Mode, Your life in plain text]]
+
+***** [[https://orgmode.org/guide/index.html][Org Mode Compact Guide]]
+
+***** [[https://beancount.github.io/docs][Beancount User's Manual]]
+
+***** [[https://github.com/beancount/fava][Fava - web interface for Beancount]]
+
+***** [[https://www.costflow.io/docs/syntax][Costflow Syntax —— beancount syntax]]
+
+***** [[https://www.emacsdocs.org/][Emacs Docs]]
+
+***** [[http://doc.norang.ca/org-mode.html][Org Mode - Organize Your Life In Plain Text!]]
+
+

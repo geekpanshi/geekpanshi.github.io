@@ -1,0 +1,79 @@
+#+title: web 开发学习相关
+#+AUTHOR: panshishuo
+#+date: <2021-12-23 18:09>
+
+***** web 前端学习之路
+#+BEGIN_SRC sh
+Basics of CS
+   ↓
+HTML
+   ↓
+CSS
+   ↓
+JavaScript
+   ↓
+Version Control - Git
+   ↓
+React
+   ↓
+Tailwind CSS
+   ↓
+Jest
+   ↓
+TypeScript
+   ↓
+Next
+   ↓
+GraphQL
+#+END_SRC
+
+***** web 后端学习之路
+#+BEGIN_SRC sh
+Basics of CS
+   ↓
+HTML/CSS
+   ↓
+Git
+   ↓
+JavaScript
+   ↓
+Ruby/Python/Rust/PHP
+   ↓
+MySQL/MongoDB
+   ↓
+APIs (REST, JWT...）
+   ↓
+Web Security
+   ↓
+Learn modern frameworks
+#+END_SRC
+
+***** web3 学习之路
+#+BEGIN_SRC sh
+Basics of CS
+   ↓
+Basics of Blockchain
+   ↓
+Front End Development → React.js
+   ↓
+Interact With The Blockchain →  Ethers.js
+   ↓
+Blockchain Language →  Solidity
+   ↓
+Build project
+#+END_SRC
+
+***** [[https://www.edx.org/course/cs50s-web-programming-with-python-and-javascript][哈佛大学免费 web 开发课程]]
+#+BEGIN_SRC sh
+课程内容包括
+
+1. HTML，CSS
+2. Git
+3. Python
+4. Django
+5. SQL， Models，和 Migrations
+6. JavaScript
+7. User Interfaces
+8. Testing， CI/CD
+9. Scalability and Security
+#+END_SRC

@@ -1,0 +1,50 @@
+#+title: 常用工具分享
+#+AUTHOR: panshishuo
+#+date: <2021-12-01 18:15>
+
+1. 思维导图：XMind，幕布，ProcessOn，知犀，mindmaster
+
+2. 问卷调查：问卷星，麦客，调查派
+
+3. H5 工具：易企秀，iH5，MAKA，人人秀
+
+4. 图文排版：i排版，135编辑器，秀米
+
+5. 在线作图：创客贴，稿定设计，Canva，图怪兽
+
+6. 词云生成：易词云，图悦，WordArt
+
+7. 免费图库：Pexels，Unsplash，Pixabay
+
+8. PPT 模板：优品PPT，51PPT，变色龙
+
+9. 手机剪辑：剪映，一闪，必剪，爱剪辑
+
+10. 专业剪辑：Premiere，Final Cut Pro，Vegas
+
+11. 视频格式转换：格式工厂，迅捷视频转换器
+
+12. 分离人声伴奏：VocalreMover，LALAL.AI，分轨
+
+13. PDF 处理：iLovePDF，Smallpdf，PDF派
+
+14. GIF 录制：GIFcam，ScreenToGif，SooGif，LICEcap
+
+15. 图文制作：Zine，锤子便签
+
+16. 文件传输：奶牛快传，AirPortal
+
+17. 录屏软件：Bandicam，EV录屏
+
+18. 人声伴奏分离：RX9
+
+19. 下载工具：
+    - [[https://www.qbittorrent.org/][qbittorrent]]
+    - [[https://motrix.app/zh-CN/][Motrix]]
+    - [[https://lightzhan.xyz/index.php/qdown/][Qdown]]
+    - [[https://xdown.org/][Xdown]]
+    - [[https://www.internetdownloadmanager.com/][IDM]]
+
+20. 公开的密钥分享平台： [[https://pkeytools.azurewebsites.net/ShareKeys][公开的密钥分享平台]]
+
+21. 词典： [[https://wantwords.thunlp.org/][万词王]]
