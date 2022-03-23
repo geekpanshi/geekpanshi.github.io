@@ -1,7 +1,6 @@
 #+title: 中国历代处罚人贩子方式
 #+AUTHOR: panshishuo
 #+date: <2022-03-19 00:01>
-#+LAYOUT: posts
 #+liquid: enabled
 #+slug: 0x34d3a48bb500001
 #+TAGS: 历史

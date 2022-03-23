@@ -1,7 +1,6 @@
 #+title: 效率软件推荐
 #+AUTHOR: panshishuo
 #+date: <2022-03-19 23:15>
-#+LAYOUT: posts
 #+liquid: enabled
 #+slug: 0x34d3c448bb550001
 #+TAGS: 软件 效率

@@ -1,9 +1,8 @@
 #+title: 数据和政策跟踪
 #+AUTHOR: panshishuo
 #+date: <2021-11-29 18:00>
-#+LAYOUT: posts
-#+liquid: enabled
 #+slug: 0x3fd6cd48bb400001
+#+liquid: enabled
 #+TAGS: 数据 政策 节日
 
 **** 数据

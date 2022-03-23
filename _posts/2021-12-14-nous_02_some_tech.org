@@ -1,7 +1,6 @@
 #+title: 一些必须知道的常识
 #+AUTHOR: panshishuo
 #+date: <2021-12-14 05:24>
-#+LAYOUT: posts
 #+liquid: enabled
 #+slug: 0xqfd3cd41bb500001
 #+TAGS: 常识 科普

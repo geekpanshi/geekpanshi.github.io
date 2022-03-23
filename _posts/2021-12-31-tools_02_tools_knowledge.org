@@ -1,7 +1,6 @@
 #+title: 知识库和工具推荐
 #+AUTHOR: panshishuo
 #+date: <2021-12-31 06:09>
-#+LAYOUT: posts
 #+liquid: enabled
 #+slug: 0x3fd3vd41bb520001
 #+TAGS: 工具 设计 教育
