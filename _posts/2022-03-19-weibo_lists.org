@@ -1,7 +1,7 @@
 #+title: 微博视频歌单
 #+AUTHOR: panshishuo
 #+date: <2022-03-19 00:50>
-#+LAYOUT: post
+#+LAYOUT: posts
 #+liquid: enabled
 #+slug: 0x3fd6cd48bb500001
 #+TAGS: 歌曲 视频 科普

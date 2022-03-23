@@ -2,7 +2,7 @@
 #+AUTHOR: panshishuo
 #+date: <2021-12-10 19:24>
 #+slug: 0x3fd6cd5b5e800001
-#+LAYOUT: post
+#+LAYOUT: posts
 #+liquid: enabled
 #+TAGS: HHKB 键盘
 

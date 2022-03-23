@@ -1,7 +1,7 @@
 #+title: 技术学习的思考和总结
 #+AUTHOR: panshishuo
 #+date: <2021-12-29 06:09>
-#+LAYOUT: post
+#+LAYOUT: posts
 #+liquid: enabled
 #+slug: 0x3fdacd41bb500001
 #+TAGS: 技术 编程 工具

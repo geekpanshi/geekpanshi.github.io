@@ -1,7 +1,7 @@
 #+title: 我的 GTD 之路
 #+AUTHOR: panshishuo
 #+date: <2022-03-04 00:01>
-#+LAYOUT: post
+#+LAYOUT: posts
 #+liquid: enabled
 #+slug: 0x34d3cd48bb500001
 #+TAGS: 效率 GTD 管理
